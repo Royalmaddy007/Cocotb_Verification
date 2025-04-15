@@ -2,7 +2,7 @@ SIM ?= verilator
 TOPLEVEL_LANG ?= verilog
 VERILOG_SOURCES += $(PWD)/xor_gate.v
 VERILOG_SOURCES += $(PWD)/xor_test.v
-EXTRA_ARGS += --trace --trace-fst --trace-structs -j
+EXTRA_ARGS += --trace --trace-fst --trace-structs -j 0
 xor:
 	rm -rf sim_build
 	rm -rf *.vcd

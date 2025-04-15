@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1737651401" />
-    <testcase name="or_test" classname="or_test" file="/home/arjun/test/or_test.py" lineno="5" time="0.0015718936920166016" sim_time_ns="4.001" ratio_time="2545.3375252540577" />
+    <property name="random_seed" value="1744708302" />
+    <testcase name="or_test" classname="or_test" file="/home/arjun/verification/Cocotb_Verification/or_gate/or_test.py" lineno="5" time="0.004059553146362305" sim_time_ns="4.001" ratio_time="985.5764552769132" />
   </testsuite>
 </testsuites>

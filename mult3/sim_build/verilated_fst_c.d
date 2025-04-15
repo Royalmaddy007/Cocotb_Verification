@@ -10,7 +10,6 @@ verilated_fst_c.o: /usr/local/share/verilator/include/verilated_fst_c.cpp \
  /usr/local/share/verilator/include/gtkwave/fastlz.h \
  /usr/local/share/verilator/include/gtkwave/fastlz.c \
  /usr/local/share/verilator/include/gtkwave/fstapi.c \
- /usr/local/share/verilator/include/gtkwave/fst_config.h \
  /usr/local/share/verilator/include/gtkwave/fstapi.h \
  /usr/local/share/verilator/include/gtkwave/lz4.h \
  /usr/local/share/verilator/include/gtkwave/lz4.c \

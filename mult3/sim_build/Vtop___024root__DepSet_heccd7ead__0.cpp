@@ -8,9 +8,8 @@
 void Vtop___024root___ico_sequent__TOP__0(Vtop___024root* vlSelf);
 
 void Vtop___024root___eval_ico(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_ico\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
     if ((1ULL & vlSelfRef.__VicoTriggered.word(0U))) {
@@ -19,9 +18,8 @@ void Vtop___024root___eval_ico(Vtop___024root* vlSelf) {
 }
 
 VL_INLINE_OPT void Vtop___024root___ico_sequent__TOP__0(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___ico_sequent__TOP__0\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
     CData/*0:0*/ mult3_test__DOT__mult_3x3_structural__DOT____VdfgRegularize_h836c462b_0_6;
@@ -153,9 +151,8 @@ VL_INLINE_OPT void Vtop___024root___ico_sequent__TOP__0(Vtop___024root* vlSelf) 
 void Vtop___024root___eval_triggers__ico(Vtop___024root* vlSelf);
 
 bool Vtop___024root___eval_phase__ico(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_phase__ico\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
     CData/*0:0*/ __VicoExecute;
@@ -169,25 +166,22 @@ bool Vtop___024root___eval_phase__ico(Vtop___024root* vlSelf) {
 }
 
 void Vtop___024root___eval_act(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_act\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
 }
 
 void Vtop___024root___eval_nba(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_nba\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
 }
 
 void Vtop___024root___eval_triggers__act(Vtop___024root* vlSelf);
 
 bool Vtop___024root___eval_phase__act(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_phase__act\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
     VlTriggerVec<0> __VpreTriggered;
@@ -204,9 +198,8 @@ bool Vtop___024root___eval_phase__act(Vtop___024root* vlSelf) {
 }
 
 bool Vtop___024root___eval_phase__nba(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_phase__nba\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
     CData/*0:0*/ __VnbaExecute;
@@ -230,9 +223,8 @@ VL_ATTR_COLD void Vtop___024root___dump_triggers__act(Vtop___024root* vlSelf);
 #endif  // VL_DEBUG
 
 void Vtop___024root___eval(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Init
     IData/*31:0*/ __VicoIterCount;
@@ -248,7 +240,7 @@ void Vtop___024root___eval(Vtop___024root* vlSelf) {
 #ifdef VL_DEBUG
             Vtop___024root___dump_triggers__ico(vlSelf);
 #endif
-            VL_FATAL_MT("/home/arjun/test/mult3/mult3_test.v", 1, "", "Input combinational region did not converge.");
+            VL_FATAL_MT("/home/arjun/verification/Cocotb_Verification/mult3/mult3_test.v", 1, "", "Input combinational region did not converge.");
         }
         __VicoIterCount = ((IData)(1U) + __VicoIterCount);
         __VicoContinue = 0U;
@@ -264,7 +256,7 @@ void Vtop___024root___eval(Vtop___024root* vlSelf) {
 #ifdef VL_DEBUG
             Vtop___024root___dump_triggers__nba(vlSelf);
 #endif
-            VL_FATAL_MT("/home/arjun/test/mult3/mult3_test.v", 1, "", "NBA region did not converge.");
+            VL_FATAL_MT("/home/arjun/verification/Cocotb_Verification/mult3/mult3_test.v", 1, "", "NBA region did not converge.");
         }
         __VnbaIterCount = ((IData)(1U) + __VnbaIterCount);
         __VnbaContinue = 0U;
@@ -275,7 +267,7 @@ void Vtop___024root___eval(Vtop___024root* vlSelf) {
 #ifdef VL_DEBUG
                 Vtop___024root___dump_triggers__act(vlSelf);
 #endif
-                VL_FATAL_MT("/home/arjun/test/mult3/mult3_test.v", 1, "", "Active region did not converge.");
+                VL_FATAL_MT("/home/arjun/verification/Cocotb_Verification/mult3/mult3_test.v", 1, "", "Active region did not converge.");
             }
             vlSelfRef.__VactIterCount = ((IData)(1U) 
                                          + vlSelfRef.__VactIterCount);
@@ -292,9 +284,8 @@ void Vtop___024root___eval(Vtop___024root* vlSelf) {
 
 #ifdef VL_DEBUG
 void Vtop___024root___eval_debug_assertions(Vtop___024root* vlSelf) {
-    (void)vlSelf;  // Prevent unused variable warning
-    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     VL_DEBUG_IF(VL_DBG_MSGF("+    Vtop___024root___eval_debug_assertions\n"); );
+    Vtop__Syms* const __restrict vlSymsp VL_ATTR_UNUSED = vlSelf->vlSymsp;
     auto& vlSelfRef = std::ref(*vlSelf).get();
     // Body
     if (VL_UNLIKELY(((vlSelfRef.A & 0xf8U)))) {

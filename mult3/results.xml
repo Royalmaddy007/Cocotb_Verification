@@ -1,6 +1,6 @@
 <testsuites name="results">
   <testsuite name="all" package="all">
-    <property name="random_seed" value="1739725817" />
-    <testcase name="or_test" classname="mult3_test" file="/home/arjun/test/mult3/mult3_test.py" lineno="5" time="0.0024263858795166016" sim_time_ns="49.001" ratio_time="20195.056529822148" />
+    <property name="random_seed" value="1744708097" />
+    <testcase name="or_test" classname="mult3_test" file="/home/arjun/verification/Cocotb_Verification/mult3/mult3_test.py" lineno="5" time="0.01804351806640625" sim_time_ns="49.001" ratio_time="2715.7120811839322" />
   </testsuite>
 </testsuites>
